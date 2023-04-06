@@ -2,15 +2,15 @@
 
 /**
  * factorial - returns the factorial of a number
- * @m: number to return the factorial 
+ * @n: number to return the factorial from
  *
- * Return: factorial of m
+ * Return: factorial of n
  */
 int factorial(int n)
 {
-	if (m < 0)
+	if (n < 0)
 		return (-1);
-	if (m == 0)
+	if (n == 0)
 		return (1);
-	return (m * factorial(m - 1));
+	return (n * factorial(n - 1));
 }
