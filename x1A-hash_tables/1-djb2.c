@@ -1,7 +1,3 @@
-/*
- * File: 1-djb2.c
- */
-
 #include "hash_tables.h"
 
 /**
